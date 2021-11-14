@@ -10,7 +10,7 @@ while prodolzit == "Y":
 
 
     if operation == "+":
-        result = valueX = valueY
+        result = valueX + valueY
         print("Результат: ", result)
     elif operation == "-":
         result = valueX - valueY
