@@ -1,0 +1,18 @@
+import turtle
+t = turtle.Turtle()
+t.shape('turtle')
+t.penup()
+t.goto(-100, 100)
+t.right(90)
+t.pendown()
+for step in range(4):
+    t.forward(200)
+    t.left(90)
+t.left(90)
+t.goto(-120, 100)
+t.forward(240)
+t.left(145)
+t.forward(158)
+t.left(75)
+t.forward(150)
+t.left(75)
